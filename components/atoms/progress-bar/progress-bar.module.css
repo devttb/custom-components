@@ -1,0 +1,35 @@
+.root:hover{
+  .bar {
+    transform: scaleY(2);
+  }
+
+  .track::before {
+    transform: scaleY(2);
+  }
+}
+
+
+.track {
+  transition: tranform 5s;
+  border-radius: 0;
+
+  &::before {
+    background-color: rgba(255,255,255,.2);
+    border-radius: 0;
+  }
+
+
+  .bar {
+    border-radius: 0;
+  }
+
+  .thumb {
+    border: none;
+    background-color: var(--slider-color);
+    height: calc(var(--slider-thumb-size) * 2);
+    width: calc(var(--slider-thumb-size) * 2);
+  }
+  
+}
+
+
