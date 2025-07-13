@@ -1,0 +1,13 @@
+export const IconPause = () => {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 36 36"
+      fill="currentColor"
+      width="100%"
+      height="100%"
+    >
+      <path d="M 12,26 16,26 16,10 12,10 z M 21,26 25,26 25,10 21,10 z" />
+    </svg>
+  );
+};
